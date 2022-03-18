@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino 01</title>
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Caveat&family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --cor1: #D10700;
+            --cor2: #E07382;
+            --cor3: #E09A96;
+            --cor4: #E09A96;
+            --cor5: rgb(241, 228, 228);
+        }
+
+        * {
+            margin: 0px; /*GRUDAR A PAGINA EM CIMA, EMBAIXO E OS LADOS*/
+            padding: 0px;
+        }
+
+        header {
+            background-image: linear-gradient(to top, var(--cor1), var(--cor2), var(--cor3));
+            font-family: 'Dancing Script';
+            color: rgb(241, 228, 228);
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            padding-top: 10px;  
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        nav {
+            font-family: 'Barlow Condensed';
+            background-color: white;
+            font-size: 20px;
+            text-align: center; 
+            padding-top: 20px;  
+            padding-bottom: 20px;       
+        }
+
+        nav > a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition-duration: 0.4s;
+        }
+
+        nav > a:hover {
+            background-color: var(--cor1);
+            color: rgb(241, 228, 228);
+        }
+
+        table {
+            font-family: 'Barlow Condensed';
+            text-align: justify;
+            background-color: white;
+            max-width: 300px;
+            max-width: 1000px;
+            padding: 20px; /*os textos ficarem distantes da borda*/
+            margin: auto; /*pagina ficar no centro*/
+        }
+        
+        main strong {
+            color: var(--cor1);
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: var(--cor1);
+            color: var(--cor5);
+            font-family: 'Dancing Script';
+        }
+
+        footer > p {
+            font-size: 20px;
+            text-align: center;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurante Bom Sabor</h1>
+        <p>Os melhores pratos da região</p>
+    </header>    
+
+    <nav>
+        <a href="">HOME</a>
+        <a href="">PRATOS</a>
+        <a href="">ESPECIALIDADES</a>
+        <a href="">GALERIA</a>
+        <a href="">FILIAIS</a>
+        <a href="">CONTATOS</a>
+    </nav>
+
+    <main>
+        <table>
+            <tr>
+            <td><img  width="250" height="250" src= "salmão3.jpg"></td>
+                  
+            <td><strong>SALMÃO A MODA DA CASA</strong> <br> 
+                 Phasellus bibendum aliquet erat, ut ornare purus malesuada et. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi provident eius inventore distinctio culpa commodi animi in sit facilis, minus ad. Consectetur, provident itaque quasi ad assumenda explicabo pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa, possimus aspernatur quo dolores, perferendis ipsa sunt impedit, qui doloremque ducimus sint perspiciatis unde rem tempora omnis tempore consectetur harum
+            </td> 
+            </tr>  
+        </table>
+
+        <table>
+            <tr>
+            <td><img  width="250" height="250" src= "lagosta1.jpg"></td>
+                  
+            <td><strong>LAGOSTA GRATINADA</strong><br> 
+                 Phasellus bibendum aliquet erat, ut ornare purus malesuada et. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi provident eius inventore distinctio culpa commodi animi in sit facilis, minus ad. Consectetur, provident itaque quasi ad assumenda explicabo pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa, possimus aspernatur quo dolores, perferendis ipsa sunt impedit, qui doloremque ducimus sint perspiciatis unde rem tempora omnis tempore consectetur harum
+            </td> 
+            </tr>  
+        </table>
+
+        <table>
+            <tr>
+            <td><img  width="250" height="250" src= "camarão1.jpg"></td>
+                  
+            <td><strong>CAMARÃO AO ALHO E OLHO COM TEMPEROS ESPECIAIS</strong><br> 
+                 Phasellus bibendum aliquet erat, ut ornare purus malesuada et. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi provident eius inventore distinctio culpa commodi animi in sit facilis, minus ad. Consectetur, provident itaque quasi ad assumenda explicabo pariatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam culpa, possimus aspernatur quo dolores, perferendis ipsa sunt impedit, qui doloremque ducimus sint perspiciatis unde rem tempora omnis tempore consectetur harum
+            </td> 
+            </tr>  
+        </table>
+
+        <footer>
+            <p>Treino criado por Jaqueline Rocha</p>
+        </footer>
+    </main>
+</body>
+</html>
